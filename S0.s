@@ -17,7 +17,7 @@ do:
 	OUT Rcon_imp,	R0  ;equesta
 	LDB R3,0(R1)
 	$MOVEI R2,'0'
-	$CMPEQ r6,r1,r2
+	$CMPEQ r6,r3,r2
 	BNZ R6,do3
 esp:			
 	IN R5,Rest_imp		
