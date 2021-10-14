@@ -11,8 +11,6 @@ main:
 	
 	
 	$MOVEI R1,str1		;R1=STR[0]
-	XOR R2,R2,R2	
-	addi R1, R2,1	;tenim ascii del primer
 	xor r0,r0,r0
 do:	
 				;;;;;;TENGO Q PONER UN WHILE R1!='0
